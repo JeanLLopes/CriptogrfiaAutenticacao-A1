@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Hash", "1. Hash", "{C73009EA-FE6E-4336-932B-DD13BE6D2D2A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. CriptografiaSimetrica", "3. CriptografiaSimetrica", "{E5758BB3-C40C-4B61-959F-E68836A9A6B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. CriptografiaAssimetrica", "4. CriptografiaAssimetrica", "{9951AF2A-183D-44C2-B7FF-A1BCA20A749C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. AssinaturaDigital", "5. AssinaturaDigital", "{36AC476C-3B0E-4DDD-A7AD-46400FD275E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. HMAC", "2. HMAC", "{ACB84B04-333A-4EC3-80A8-B0EB4ECF6103}"
+	ProjectSection(SolutionItems) = preProject
+		Hash\TiposHash\Sha1.cs = Hash\TiposHash\Sha1.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hash", "Hash\Hash.csproj", "{721EADD4-DA56-4968-A734-713BC2B4C18E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hmac", "Hmac\Hmac.csproj", "{90BF7B56-14F3-415C-8ACF-6AB0401F2D28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CriptografiaSimetrica", "CriptografiaSimetrica\CriptografiaSimetrica.csproj", "{9EBA6C58-6B5C-4BCC-985F-4CA1A3056149}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CriptografiaAssimetrica", "CriptografiaAssimetrica\CriptografiaAssimetrica.csproj", "{D75F0F7E-94F8-409F-B119-1F875AE2439A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssinaturaDigital", "AssinaturaDigital\AssinaturaDigital.csproj", "{05B0D50F-A815-4CF7-B742-F6F84B49D5DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{721EADD4-DA56-4968-A734-713BC2B4C18E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{721EADD4-DA56-4968-A734-713BC2B4C18E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{721EADD4-DA56-4968-A734-713BC2B4C18E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{721EADD4-DA56-4968-A734-713BC2B4C18E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90BF7B56-14F3-415C-8ACF-6AB0401F2D28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90BF7B56-14F3-415C-8ACF-6AB0401F2D28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90BF7B56-14F3-415C-8ACF-6AB0401F2D28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90BF7B56-14F3-415C-8ACF-6AB0401F2D28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EBA6C58-6B5C-4BCC-985F-4CA1A3056149}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EBA6C58-6B5C-4BCC-985F-4CA1A3056149}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EBA6C58-6B5C-4BCC-985F-4CA1A3056149}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EBA6C58-6B5C-4BCC-985F-4CA1A3056149}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D75F0F7E-94F8-409F-B119-1F875AE2439A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D75F0F7E-94F8-409F-B119-1F875AE2439A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D75F0F7E-94F8-409F-B119-1F875AE2439A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D75F0F7E-94F8-409F-B119-1F875AE2439A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05B0D50F-A815-4CF7-B742-F6F84B49D5DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05B0D50F-A815-4CF7-B742-F6F84B49D5DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05B0D50F-A815-4CF7-B742-F6F84B49D5DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05B0D50F-A815-4CF7-B742-F6F84B49D5DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{721EADD4-DA56-4968-A734-713BC2B4C18E} = {C73009EA-FE6E-4336-932B-DD13BE6D2D2A}
+		{90BF7B56-14F3-415C-8ACF-6AB0401F2D28} = {ACB84B04-333A-4EC3-80A8-B0EB4ECF6103}
+		{9EBA6C58-6B5C-4BCC-985F-4CA1A3056149} = {E5758BB3-C40C-4B61-959F-E68836A9A6B3}
+		{D75F0F7E-94F8-409F-B119-1F875AE2439A} = {9951AF2A-183D-44C2-B7FF-A1BCA20A749C}
+		{05B0D50F-A815-4CF7-B742-F6F84B49D5DE} = {36AC476C-3B0E-4DDD-A7AD-46400FD275E1}
+	EndGlobalSection
+EndGlobal
